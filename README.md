@@ -7,6 +7,9 @@
 ## run the execute file
 
     C:\..\main>gogo.exe
+    C:\..\main>gogo.exe try
+    C:\..\main>gogo.exe try g
+    C:\..\main>gogo.exe 1
 
 ## Links
 
