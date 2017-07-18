@@ -13,4 +13,4 @@
 
 ## Links
 
-- [how to run golang multiple files in main package] (https://stackoverflow.com/questions/28081486/golang-multiple-files-in-main-package) 
+- [how to run golang multiple files in main package](https://stackoverflow.com/questions/28081486/golang-multiple-files-in-main-package) 
