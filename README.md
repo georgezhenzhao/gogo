@@ -8,10 +8,22 @@
 
 Please try different parameters to see what the results are.
 
-    C:\..\main>gogo.exe 
+### test mode
+
     C:\..\main>gogo.exe test
-    C:\..\main>gogo.exe run
-    C:\..\main>gogo.exe others
+
+### start Http server
+
+    C:\..\main>gogo.exe start
+
+### Http Get request
+
+    C:\..\main>gogo.exe get
+
+### try different parameters or none parameters 
+
+    C:\..\main>gogo.exe
+    C:\..\main>gogo.exe params
 
 ## see configuration
 
@@ -20,3 +32,5 @@ Please try different parameters to see what the results are.
 ## Links
 
 - [how to run golang multiple files in main package](https://stackoverflow.com/questions/28081486/golang-multiple-files-in-main-package)
+
+- [What is golang good for](https://www.quora.com/What-is-golang-good-for)
