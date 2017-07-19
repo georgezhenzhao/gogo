@@ -6,11 +6,17 @@
 
 ## run the execute file
 
-    C:\..\main>gogo.exe
-    C:\..\main>gogo.exe try
-    C:\..\main>gogo.exe try g
-    C:\..\main>gogo.exe 1
+Please try different parameters to see what the results are.
+
+    C:\..\main>gogo.exe 
+    C:\..\main>gogo.exe test
+    C:\..\main>gogo.exe run
+    C:\..\main>gogo.exe others
+
+## see configuration
+
+../conf/conf.json
 
 ## Links
 
-- [how to run golang multiple files in main package](https://stackoverflow.com/questions/28081486/golang-multiple-files-in-main-package) 
+- [how to run golang multiple files in main package](https://stackoverflow.com/questions/28081486/golang-multiple-files-in-main-package)
