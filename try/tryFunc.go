@@ -1,10 +1,10 @@
-package main
+package try
 
 import (
 	"fmt"
 )
 
-func tryFunc() {
+func TryFunc() {
 
 	fmt.Println("tryFunc is starting.")
 
@@ -25,9 +25,9 @@ func tryFunc() {
 
 }
 
-func plus(a int, b int) int {
+func plus(a int, b int) (int, int) {
 
-	return a + b
+	return a + b, a - b
 }
 
 func display(a string, b string) string {

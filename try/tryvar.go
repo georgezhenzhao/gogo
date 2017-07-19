@@ -1,10 +1,10 @@
-package main
+package try
 
 import (
 	"fmt"
 )
 
-func tryVar() {
+func TryVar() {
 
 	fmt.Println("tryFunc is starting.")
 

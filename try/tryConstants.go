@@ -1,14 +1,14 @@
-package main
+package try
 
 import (
 	"fmt"
 )
 
-var gv = "global var"
+var GV = "global var"
 
-const gc string = "global constant"
+const GC string = "global constant"
 
-func tryCont() {
+func TryCont() {
 
 	const n = 500000000
 	const d = 3e20 / n

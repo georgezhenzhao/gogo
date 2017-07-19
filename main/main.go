@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"os"
 
+	"../try"
 	"../utils"
 	"../web"
 )
@@ -26,23 +27,28 @@ func main() {
 		fmt.Println(args)
 		utils.Info.Println("gogo is starting with params given")
 
+		parMap := make(map[string]string)
+		parMap["p1"] = os.Args[1]
+		fmt.Println("parMap:", parMap)
+
 	} else {
 
 		fmt.Println("gogo is starting without params given.")
 		fmt.Println("Nothing we can do now.")
 		utils.Info.Println("Nothing we can do now.")
-		os.Exit(1)
+		os.Exit(0)
 	}
 	fmt.Println("********************")
 
 	if os.Args[1] == "test" {
-		tryFunc()
-		tryVar()
-		tryCont()
+		try.TryFunc()
+		try.TryVar()
+		try.TryCont()
+		try.TryPointer()
 
-		fmt.Println(gv)
-		fmt.Println(gc)
-		os.Exit(1)
+		fmt.Println(try.GV)
+		fmt.Println(try.GC)
+		os.Exit(0)
 
 	} else if os.Args[1] == "get" {
 
