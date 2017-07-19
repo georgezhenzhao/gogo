@@ -21,7 +21,7 @@ func tryFunc() {
 		fmt.Println(num, "others")
 	}
 
-	fmt.Println("tryFunc is completed.\n")
+	fmt.Println("tryFunc is completed.")
 
 }
 

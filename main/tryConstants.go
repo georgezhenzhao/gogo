@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-var gv string = "global var"
+var gv = "global var"
 
 const gc string = "global constant"
 

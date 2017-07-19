@@ -8,7 +8,7 @@ func tryVar() {
 
 	fmt.Println("tryFunc is starting.")
 
-	var initStr string = "initial"
+	var initStr = "initial"
 
 	fmt.Println(initStr)
 
@@ -21,6 +21,6 @@ func tryVar() {
 	var e int
 	fmt.Println(e)
 
-	fmt.Println("tryFunc is completed.\n")
+	fmt.Println("tryFunc is completed.")
 
 }

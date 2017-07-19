@@ -33,7 +33,7 @@ func main() {
 		utils.Info.Println("Nothing we can do now.")
 		os.Exit(1)
 	}
-	fmt.Println("********************\n")
+	fmt.Println("********************")
 
 	if os.Args[1] == "test" {
 		tryFunc()
