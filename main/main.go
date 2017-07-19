@@ -48,6 +48,14 @@ func main() {
 
 		fmt.Println(try.GV)
 		fmt.Println(try.GC)
+
+		//try.TryMethod()
+		try.TryInterface()
+		try.TryErrors()
+		try.TryChannels()
+		try.TryWorkers()
+		try.TryJson()
+
 		os.Exit(0)
 
 	} else if os.Args[1] == "get" {
