@@ -1,5 +1,13 @@
 # gogo
 
+It has a few proto-functions.
+
+- configuration by json
+- main menu
+- logging with different levels
+- standalone http server
+- senda HTTP Get request and save the response to a logging file
+
 ## build a exe file
 
     C:\..\gogo>make build
