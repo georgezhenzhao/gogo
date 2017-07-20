@@ -61,8 +61,8 @@ func main() {
 	} else if os.Args[1] == "get" {
 
 		urls := make([]string, 3)
-		urls[0] = "http://google.com"
-		urls = append(urls, "http://localhost:909/admin", "http://localhost:909/admin/health")
+		urls[0] = "http://172.20.8.108:9090/admin/info"
+		urls = append(urls, "http://google.com", "http://localhost:9090/admin/health")
 		fmt.Println("emp:", urls)
 
 		var rs string = web.CallGet(urls[0])
