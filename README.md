@@ -2,6 +2,10 @@
 
 ## build a exe file
 
+    C:\..\gogo>make build
+
+or
+
     C:\..\main>go build -o gogo.exe
 
 ## run the execute file

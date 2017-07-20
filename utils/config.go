@@ -14,7 +14,7 @@ type Configuration struct {
 // Initilize log
 func getLogFile() string {
 
-	file, _ := os.Open("../conf/conf.json")
+	file, _ := os.Open("conf/conf.json")
 	decoder := json.NewDecoder(file)
 	configuration := Configuration{}
 	errconf := decoder.Decode(&configuration)
