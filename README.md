@@ -7,6 +7,7 @@ It has a few proto-functions.
 - logging with different levels
 - standalone http server
 - senda HTTP Get request and save the response to a logging file
+- support multiple threads
 
 ## build a exe file
 
