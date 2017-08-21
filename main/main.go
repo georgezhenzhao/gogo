@@ -12,6 +12,8 @@ import (
 
 func main() {
 
+	fmt.Printf("pid: %d\n", os.Getpid())
+
 	utils.Initlog()
 
 	//utils.Trace.Println("Trace log")
@@ -68,6 +70,10 @@ func main() {
 		var rs string = web.CallGet(urls[0])
 
 		utils.Info.Println(rs)
+
+	} else if os.Args[1] == "ps" && len(os.Args) == 3 {
+
+		utils.CheckPidInfo(os.Args[2])
 
 	} else if os.Args[1] == "start" {
 

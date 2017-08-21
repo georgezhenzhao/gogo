@@ -38,6 +38,10 @@ Please try different parameters to see what the results are.
     C:\..\main>gogo.exe
     C:\..\main>gogo.exe params
 
+### Check Pid
+
+    C:\..\main>gogo.exe ps 123
+
 ## see configuration
 
 ../conf/conf.json
