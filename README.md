@@ -21,24 +21,24 @@ or
 
 Please try different parameters to see what the results are.
 
-### test mode
+### 1. Test mode
 
     C:\..\main>gogo.exe test
 
-### start Http server
+### 2. Start Http server
 
     C:\..\main>gogo.exe start
 
-### Http Get request
+### 3. Http Get request
 
     C:\..\main>gogo.exe get
 
-### try different parameters or none parameters 
+### 4. Try different parameters or none parameters 
 
     C:\..\main>gogo.exe
     C:\..\main>gogo.exe params
 
-### Check Pid
+### 5. Check Pid
 
     C:\..\main>gogo.exe ps 123
 
