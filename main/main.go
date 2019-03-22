@@ -10,6 +10,10 @@ import (
 	"../web"
 )
 
+func end() {
+	fmt.Println("Bye!")
+}
+
 func main() {
 
 	fmt.Printf("pid: %d\n", os.Getpid())
@@ -20,6 +24,8 @@ func main() {
 	utils.Info.Println("-- gogo is a GoLang project --")
 	//utils.Warning.Println("Warning log")
 	//utils.Error.Println("Error log")
+
+	defer end()
 
 	fmt.Println("\n********************")
 	if len(os.Args) > 1 {
