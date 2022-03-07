@@ -1,6 +1,6 @@
 GO ?= latest
 
 build:
-	go build -o gogo.exe main/main.go
+	go build -o gogo main/main.go
 	@echo "Done building."
-	@echo "Run \"gogo.exe\" to launch gogo."
+	@echo "Run \"gogo\" to launch gogo."
